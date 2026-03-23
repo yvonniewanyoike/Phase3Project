@@ -125,4 +125,6 @@ The target variable is **seasonal_vaccine:**
 
 - Recommendation: Use demographic data to identify low-perception groups (likely younger adults) and create social media campaigns that highlight how the flu can impact even healthy individuals or their vulnerable family members.
 
+<img width="1096" height="550" alt="image" src="https://github.com/user-attachments/assets/e55bcd3d-2462-4a87-9d35-f6e4040ef327" />
+
 
