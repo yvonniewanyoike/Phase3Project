@@ -86,8 +86,7 @@ The target variable is **seasonal_vaccine:**
   ***
 ### **2. Modelling**
 - Linear Regression
-- Random Forest Regression
-- Decision Trees
+- Random Forest Classification Regression
 ***
 ### **3.Model Evaluation**
 - Accuracy Score
