@@ -86,8 +86,7 @@ The target variable is **seasonal_vaccine:**
   ***
 ### **2. Modelling**
 - Linear Regression
-- Random Forest Regression
-- Decision Trees
+- Random Forest Classification Regression
 ***
 ### **3.Model Evaluation**
 - Accuracy Score
@@ -97,4 +96,35 @@ The target variable is **seasonal_vaccine:**
 ***
 ### **4. Feature Importance**  
    - Identify the most influential features that highly influnce vaccination behaviour
+***
+### **5. Key Results**
+**Best Model:** Random Forest Classification Model
+
+**Primary Metric (ROC AUC):*** 0.838 (Exceeding the 0.75 benchmark)
+
+**Baseline Model (Logistic Regression):** 0.819 AUC
+***
+<img width="850" height="552" alt="image" src="https://github.com/user-attachments/assets/75e7ae28-9e14-470a-b644-09ad8b9ee8bf" />
+
+***
+
+### **6. Recommendations**
+
+1.  `doctor_recc_seasonal`:
+- Finding: A direct recommendation from a healthcare provider is the strongest predictor of whether a patient will get vaccinated.
+
+- Recommendation: Fund programs that encourage physicians to speak up. This can be done by providing them with toolkits to ensure they ask every patient about their flu shot during routine visits.
+
+2. `opinion_seas_vacc_effective`:
+- Finding: People believing in the effectiveness of the vaccine is more important than their fear of side effects or the cost of the shot.
+
+- Recommendation: Marketing materials should move away from just saying "It's Safe" and focus more on "How Well It Works." Use data-driven storytelling to show how the vaccine prevents hospitalizations in the local community.
+
+3. `opinion_seas_risk`:
+- Finding: Individuals who perceive themselves as "low risk" for getting influenza are significantly less likely to vaccinate, regardless of their access to healthcare.
+
+- Recommendation: Use demographic data to identify low-perception groups (likely younger adults) and create social media campaigns that highlight how the flu can impact even healthy individuals or their vulnerable family members.
+
+<img width="1096" height="550" alt="image" src="https://github.com/user-attachments/assets/e55bcd3d-2462-4a87-9d35-f6e4040ef327" />
+
 
