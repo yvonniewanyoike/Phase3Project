@@ -43,6 +43,8 @@ The goal of this project is to build a **predictive machine learning model** tha
 The data for this project is sourced from the `National 2009 H1N1 Flu Survey (NHFS)`. While the survey was conducted during the H1N1 pandemic, it collected extensive data on Seasonal Flu vaccination patterns, which serves as our target variable.
 
 This dataset is ideal for behavioral insights because it captures personal opinions and daily habits.
+***
+ The `training_set_features` & `training_set_labels` datasets were used for this project.
  ### ***2.2 Dataset Characteristics:***
  - **Total Records:** We have 26,707 survey responses.
 
