@@ -40,5 +40,33 @@ The goal of this project is to build a **predictive machine learning model** tha
 ***
 ## **2. Data Understanding**
  ### ***2.1 Data Source:***
+The data for this project is sourced from the `National 2009 H1N1 Flu Survey (NHFS)`. While the survey was conducted during the H1N1 pandemic, it collected extensive data on Seasonal Flu vaccination patterns, which serves as our target variable.
 
- 
+This dataset is ideal for behavioral insights because it captures personal opinions and daily habits.
+ ### ***2.2 Dataset Characteristics:***
+ - **Total Records:** We have 26,707 survey responses.
+
+
+- **Feature Set:** 37 predictor variables, including:
+
+  **1. Behavioral:** (e.g., behavioral_face_mask, behavioral_wash_hands).
+
+  **2. Opinions:** (e.g., opinion_seas_vacc_effective, opinion_seas_sick_from_vacc).
+
+  **3. Demographics:** (e.g., age_group, education, race, income_poverty).
+
+  **4. Health History:** (e.g., doctor_recc_seasonal, chronic_med_condition).
+ ### **2.3 Target Variable Analysis:** 
+The target variable is **seasonal_vaccine:**
+
+**0:** Did not receive the seasonal flu vaccine.
+
+**1:** Received the seasonal flu vaccine.
+## **Tools & Libraries**
+
+- **Python 3.10+**  
+- **Pandas** – Data manipulation  
+- **NumPy** – Numerical computations  
+- **Seaborn & Matplotlib** – Data visualization  
+- **Scikit-learn** – Machine learning models & evaluation metrics
+- **StatsModel** - Multicollinearity testing
