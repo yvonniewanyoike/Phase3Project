@@ -62,6 +62,7 @@ The target variable is **seasonal_vaccine:**
 **0:** Did not receive the seasonal flu vaccine.
 
 **1:** Received the seasonal flu vaccine.
+***
 ## **Tools & Libraries**
 
 - **Python 3.10+**  
@@ -70,3 +71,28 @@ The target variable is **seasonal_vaccine:**
 - **Seaborn & Matplotlib** – Data visualization  
 - **Scikit-learn** – Machine learning models & evaluation metrics
 - **StatsModel** - Multicollinearity testing
+***
+## Methodology 
+### **1. Data Preparation and Pre-Processing**
+- Check for duplicates
+- Drop irrelevant columns
+- Apply train-test split
+- Detect and deal with missing values
+- Convert categorical data to numeric format through one-hot encoding
+- Normalize our numeric data
+- Check for and remove multicollinearity (correlated predictors)
+  ***
+### **2. Modelling**
+- Linear Regression
+- Random Forest Regression
+- Decision Trees
+***
+### **3.Model Evaluation**
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+- ROC AUC Score
+***
+### **4. Feature Importance**  
+   - Identify the most influential features that highly influnce vaccination behaviour
+
